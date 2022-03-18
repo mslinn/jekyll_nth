@@ -4,6 +4,11 @@
 
 `jeykll_nth` is a Jekyll filter plugin that returns item n of array, origin 1.
 
+## Usage
+```
+{{ [1, 2, 3, 4, 5] | nth: 2 }}  # returns 2
+```
+
 
 ## Installation
 
