@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
-require_relative "lib/jeykll_nth/version"
+require_relative "lib/jekyll_nth/version"
 
 # rubocop:disable Metrics/BlockLength, Style/StringLiterals
 Gem::Specification.new do |spec|
-  spec.name = 'jeykll_nth'
+  spec.name = 'jekyll_nth'
   spec.version = Jekyll::VERSION
   spec.authors = ['Mike Slinn']
   spec.email = ['mslinn@mslinn.com']
 
   spec.summary = 'Provides a Jekyll filter that provides case-insensitive hash key sorting.'
-  spec.homepage = 'https://github.com/mslinn/jeykll_nth'
+  spec.homepage = 'https://github.com/mslinn/jekyll_nth'
   spec.license = 'MIT'
   spec.required_ruby_version = '>= 2.6.0'
 
