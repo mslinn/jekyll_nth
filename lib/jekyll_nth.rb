@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 require "jekyll"
-require_relative "jeykll_nth/version"
 require "jekyll_plugin_logger"
+require_relative "jeykll_nth/version"
 
 module Jekyll
   # Returns item n of array, origin 1
@@ -18,5 +18,4 @@ module Jekyll
 end
 
 Liquid::Template.register_filter(Jekyll::Nth)
-
 Jekyll.info "Loaded jeykll_nth plugin."

@@ -43,12 +43,21 @@ Install development dependencies like this:
 $ BUNDLE_WITH="development" bundle install
 ```
 
+### Build and Install Locally
 To build and install this gem onto your local machine, run:
+```shell
+$ rake install:local
+```
+
+The following also does the same thing:
 ```shell
 $ bundle exec rake install
 jeykll_nth 1.0.0 built to pkg/jeykll_nth-0.1.0.gem.
 jeykll_nth (1.0.0) installed.
+```
 
+Examine the newly built gem:
+```
 $ gem info jeykll_nth
 
 *** LOCAL GEMS ***
