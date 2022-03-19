@@ -15,7 +15,7 @@ module Jekyll
       array[index]
     end
   end
+  info { "Loaded jeykll_nth plugin." }
 end
 
 Liquid::Template.register_filter(Jekyll::Nth)
-Jekyll.info "Loaded jeykll_nth plugin."
