@@ -2,6 +2,8 @@ PATH
   remote: .
   specs:
     jekyll_nth (1.0.0)
+      jekyll (>= 3.5.0)
+      jekyll_plugin_logger
 
 GEM
   remote: https://rubygems.org/
@@ -44,7 +46,7 @@ GEM
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jekyll_plugin_logger (2.0.0)
-      jekyll
+      jekyll (>= 3.5.0)
     kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -119,7 +121,6 @@ PLATFORMS
 DEPENDENCIES
   bundler
   debase
-  jekyll (>= 3.5)
   jekyll_nth!
   jekyll_plugin_logger
   rake (~> 13.0)
@@ -131,4 +132,4 @@ DEPENDENCIES
   ruby-debug-ide
 
 BUNDLED WITH
-   2.3.8
+   2.3.7

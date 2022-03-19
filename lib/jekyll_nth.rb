@@ -5,17 +5,15 @@ require "jekyll_plugin_logger"
 require_relative "jeykll_nth/version"
 
 module Jekyll
-  # Returns item n of array, origin 1
-  module Nth
-    # @return nth item of an array, origin 1
-    def nth(array, index)
-      abort "nth error: array was empty." if array.nil?
-      abort "nth error: array has only #{array.length} items, but item #{index} was requested." if array.length < index.abs
+  # @return nth item of an array, origin 1
+  def nth(array, index)
+    abort "nth error: array was empty." if array.nil?
+    abort "nth error: array has only #{array.length} items, but item #{index} was requested." if array.length < index.abs
 
-      array[index]
-    end
+    array[index]
   end
+
   info { "Loaded jeykll_nth plugin." }
 end
 
-Liquid::Template.register_filter(Jekyll::Nth)
+Liquid::Template.register_filter(Jekyll)

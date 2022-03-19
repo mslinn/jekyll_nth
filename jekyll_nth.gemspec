@@ -5,7 +5,7 @@ require_relative "lib/jekyll_nth/version"
 # rubocop:disable Metrics/BlockLength, Style/StringLiterals
 Gem::Specification.new do |spec|
   spec.name = 'jekyll_nth'
-  spec.version = Jekyll::VERSION
+  spec.version = JekyllNth::VERSION
   spec.authors = ['Mike Slinn']
   spec.email = ['mslinn@mslinn.com']
 
