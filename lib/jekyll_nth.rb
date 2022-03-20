@@ -2,7 +2,6 @@
 
 require "jekyll"
 require "jekyll_plugin_logger"
-require_relative "jeykll_nth/version"
 
 module Jekyll
   # @return nth item of an array, origin 1
