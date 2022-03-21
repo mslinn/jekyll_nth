@@ -2,6 +2,11 @@
 
 require "jekyll"
 require "jekyll_plugin_logger"
+require_relative "jekyll_nth/version"
+
+module JekyllPluginNthName
+  PLUGIN_NAME = "jekyll_nth"
+end
 
 module Jekyll
   # @return nth item of an array, origin 1
@@ -12,7 +17,7 @@ module Jekyll
     array[index]
   end
 
-  info { "Loaded jeykll_nth plugin." }
+  info { "Loaded #{JekyllPluginNthName::PLUGIN_NAME} v#{JekyllNth::VERSION} plugin." }
 end
 
 Liquid::Template.register_filter(Jekyll)
