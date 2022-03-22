@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require "jekyll"
-require_relative "../lib/jeykll_nth"
+require_relative "../lib/jekyll_nth"
 
 RSpec.configure do |config|
   config.run_all_when_everything_filtered = true

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require "jekyll"
-require_relative "../lib/jeykll_nth"
+require_relative "../lib/jekyll_nth"
 
 RSpec.describe(Jekyll) do
   include Jekyll

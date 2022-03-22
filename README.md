@@ -1,8 +1,8 @@
-`jeykll_nth`
-[![Gem Version](https://badge.fury.io/rb/jeykll_nth.svg)](https://badge.fury.io/rb/jeykll_nth)
+`jekyll_nth`
+[![Gem Version](https://badge.fury.io/rb/jekyll_nth.svg)](https://badge.fury.io/rb/jekyll_nth)
 ===========
 
-`jeykll_nth` is a Jekyll filter plugin that returns item n of array, origin 1.
+`jekyll_nth` is a Jekyll filter plugin that returns item n of array, origin 1.
 
 ## Usage
 
@@ -17,7 +17,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'jeykll_nth'
+gem 'jekyll_nth'
 ```
 
 And then execute:
@@ -26,7 +26,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install jeykll_nth
+    $ gem install jekyll_nth
 
 
 ## Additional Information
@@ -50,20 +50,20 @@ $ rake install:local
 The following also does the same thing:
 ```shell
 $ bundle exec rake install
-jeykll_nth 1.0.0 built to pkg/jeykll_nth-0.1.0.gem.
-jeykll_nth (1.0.0) installed.
+jekyll_nth 1.0.0 built to pkg/jekyll_nth-0.1.0.gem.
+jekyll_nth (1.0.0) installed.
 ```
 
 Examine the newly built gem:
 ```
-$ gem info jeykll_nth
+$ gem info jekyll_nth
 
 *** LOCAL GEMS ***
 
-jeykll_nth (1.0.0)
+jekyll_nth (1.0.0)
     Author: Mike Slinn
     Homepage:
-    https://github.com/mslinn/jeykll_nth
+    https://github.com/mslinn/jekyll_nth
     License: MIT
     Installed at: /home/mslinn/.gems
 

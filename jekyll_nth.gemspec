@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   spec.authors = ["Mike Slinn"]
   spec.bindir = "exe"
   spec.description = <<~END_OF_DESC
-    Provides a Jekyll filter that provides case-insensitive hash key sorting.
+    Provides a Jekyll filter that enables access to the nth items of an array.
   END_OF_DESC
   spec.email = ["mslinn@mslinn.com"]
   spec.executables = GemSpecHelper.spec_executables(files)
@@ -48,7 +48,7 @@ Gem::Specification.new do |spec|
   END_MESSAGE
   spec.require_paths = ["lib"]
   spec.required_ruby_version = ">= 2.6.0"
-  spec.summary = "Provides a Jekyll filter that provides case-insensitive hash key sorting."
+  spec.summary = "Provides a Jekyll filter that enables access to the nth items of an array."
   spec.version = JekyllNth::VERSION
 
   spec.add_dependency "jekyll", ">= 3.5.0"

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require "jekyll"
 require "jekyll_plugin_logger"
+require "liquid"
 require_relative "jekyll_nth/version"
 
 module JekyllPluginNthName
@@ -16,8 +16,7 @@ module Jekyll
 
     array[index]
   end
-
-  info { "Loaded #{JekyllPluginNthName::PLUGIN_NAME} v#{JekyllNth::VERSION} plugin." }
 end
 
+PluginMetaLogger.instance.info { "Loaded #{JekyllPluginNthName::PLUGIN_NAME} v#{JekyllNth::VERSION} plugin." }
 Liquid::Template.register_filter(Jekyll)
