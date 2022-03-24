@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require "jekyll_plugin_logger"
 require "liquid"
 require_relative "jekyll_nth/version"
 
