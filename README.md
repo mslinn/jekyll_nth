@@ -2,12 +2,12 @@
 [![Gem Version](https://badge.fury.io/rb/jekyll_nth.svg)](https://badge.fury.io/rb/jekyll_nth)
 ===========
 
-`jekyll_nth` is a Jekyll filter plugin that returns item n of array, origin 1.
+`jekyll_nth` is a Jekyll filter plugin that returns item n of array, origin 0.
 
 ## Usage
 
 ```
-{{ [1, 2, 3, 4, 5] | nth: 2 }}  # returns 2
+{{ [1, 2, 3, 4, 5] | nth: 2 }}  # returns 3
 ```
 :warning: Important: the name of the filter must be followed by a colon (:). If you fail to do that an error will be generated and the Jekyll site building process will halt. The error message looks something like this: `Liquid Warning: Liquid syntax error (line 285): Expected end_of_string but found string in "{{ [1, 2, 3, 4, 5] | nth: '2' }}" in /some_directory/some_files.html Liquid Exception: Liquid error (line 285): wrong number of arguments (given 1, expected 2) in /some_directory/some_file.html Error: Liquid error (line 285): wrong number of arguments (given 1, expected 2)`
 
