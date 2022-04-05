@@ -32,7 +32,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 2.6.0"
   spec.summary = "Provides a Jekyll filter that enables access to the nth items of an array."
   spec.test_files = spec.files.grep(%r!^(test|spec|features)/!)
-  spec.version = JekyllNth::VERSION
+  spec.version = JekyllNthVersion::VERSION
 
   spec.add_dependency "jekyll", ">= 3.5.0"
   spec.add_dependency "jekyll_plugin_logger"

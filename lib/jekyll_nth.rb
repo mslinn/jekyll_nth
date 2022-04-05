@@ -18,5 +18,5 @@ module Jekyll
   end
 end
 
-PluginMetaLogger.instance.info { "Loaded #{JekyllPluginNthName::PLUGIN_NAME} v#{JekyllNth::VERSION} plugin." }
+PluginMetaLogger.instance.info { "Loaded #{JekyllPluginNthName::PLUGIN_NAME} v#{JekyllNthVersion::VERSION} plugin." }
 Liquid::Template.register_filter(Jekyll)
