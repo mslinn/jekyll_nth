@@ -7,15 +7,14 @@ RSpec.describe(Jekyll) do
   include Jekyll
 
   let(:config) { instance_double("Configuration") }
-  let(:context) {
+  let(:context) do
     context_ = instance_double("Liquid::Context")
     context_.config = config
     context_
-  }
+  end
 
   it "is created properly" do
-    # run_tag = RunTag.new("run", "echo asdf")
-    # output = run_tag.render(context)
-    # expect(output).to eq("asdf")
+    array = [1, 2, 3, 4, 5]
+    assert(nth(array, 2)).to eq(3)
   end
 end
