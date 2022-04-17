@@ -27,7 +27,7 @@
       "request": "launch",
       "showDebuggerOutput": false,
       "type": "Ruby",
-      "useBundler": true,
+      // "useBundler": true,
     },
     {
       "args": [
@@ -41,7 +41,7 @@
       "request": "launch",
       "showDebuggerOutput": false,
       "type": "Ruby",
-      "useBundler": true,
+      // "useBundler": true,
     }
   ]
 }

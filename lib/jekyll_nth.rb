@@ -8,7 +8,7 @@ module JekyllPluginNthName
   PLUGIN_NAME = "jekyll_nth"
 end
 
-module Jekyll
+module Nth
   # @return nth item of an array, origin 1
   def nth(array, index)
     abort "nth error: array was empty." if array.nil?
@@ -19,4 +19,4 @@ module Jekyll
 end
 
 PluginMetaLogger.instance.info { "Loaded #{JekyllPluginNthName::PLUGIN_NAME} v#{JekyllNthVersion::VERSION} plugin." }
-Liquid::Template.register_filter(Jekyll)
+Liquid::Template.register_filter(Nth)

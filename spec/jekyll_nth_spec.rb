@@ -3,8 +3,8 @@
 require "jekyll"
 require_relative "../lib/jekyll_nth"
 
-RSpec.describe(Jekyll) do
-  include Jekyll
+RSpec.describe(Nth) do
+  include Nth
 
   let(:config) { instance_double("Configuration") }
   let(:context) do
@@ -15,6 +15,7 @@ RSpec.describe(Jekyll) do
 
   it "is created properly" do
     array = [1, 2, 3, 4, 5]
-    assert(nth(array, 2)).to eq(3)
+    expect(nth(array, 0)).to eq(1)
+    expect(nth(array, 2)).to eq(3)
   end
 end
