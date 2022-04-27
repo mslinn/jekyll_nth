@@ -1,3 +1,6 @@
+## 1.1.0 / 2022-04-27
+  * Added tail method
+
 ## 1.0.0 / 2022-03-16
   * Published as a gem
 
