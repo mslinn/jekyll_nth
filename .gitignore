@@ -28,6 +28,7 @@ doc/
 exe/
 jekyll/doc/
 node_modules/
+/exe/
 out/
 pkg/
 project/
