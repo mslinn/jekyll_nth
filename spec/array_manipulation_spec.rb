@@ -2,7 +2,7 @@ require 'jekyll'
 require_relative '../lib/jekyll_nth'
 
 RSpec.describe(ArrayManipulation) do
-  include ArrayManipulation
+  include described_class
 
   let(:config) { instance_double(Configuration) }
   let(:context) do
