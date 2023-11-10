@@ -11,14 +11,16 @@ require:
 AllCops:
   Exclude:
     - demo/_site/**/*
-    - exe/**/*
+    - binstub/**/*
     - vendor/**/*
     - Gemfile*
     - jekyll_nth.gemspec
   NewCops: enable
-  TargetRubyVersion: 2.6
 
 Gemspec/DeprecatedAttributeAssignment:
+  Enabled: false
+
+Gemspec/RequiredRubyVersion:
   Enabled: false
 
 Gemspec/RequireMFA:
